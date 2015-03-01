@@ -1,0 +1,119 @@
+---
+layout: default
+active: Docs
+---
+{% include wrap.html %}
+<div class="docsContainer container">
+	<div class="row">
+		<div class="col-md-2">
+			<ul id="menu" class="nav nav-list">
+				<li class="nav-header">GETTING STARTED</li>
+				<li data-section="docs/index"><a href="/docs">개요</a></li>
+				<li data-section="docs/gettingstart-quickstart"><a href="/docs/gettingstart-quickstart.html">빠른시작</a></li>
+				<li class="divider"></li>
+				<li class="nav-header">Project Management</li>
+				<li data-section="docs/project-create"><a href="/docs/project-create.html">프로젝트 생성</a></li>
+				<li data-section="docs/project-thecore"><a href="/docs/project-thecore.html">더코어 프리뷰</a></li>
+				<li class="nav nav-sub">
+					<ul class="nav nav-list">
+						<li data-section="docs/project-thecore-install"><a href="/docs/project-thecore-install.html"><i class="fa fa-caret-right"></i> 다운로드&설치</a></li>
+					</ul>
+				</li>
+				<li class="divider"></li>
+				<li class="nav-header">APP DESIGN STUDIO</li>
+				<li data-section="docs/studio"><a href="/docs/studio.html">App 스튜디오</a></li>
+				<li class="nav nav-sub">
+					<ul class="nav nav-list">
+						<li data-section="docs/studio-toolbar">
+							<a href="/docs/studio-toolbar.html"><i class="fa fa-caret-right"></i> 툴바</a>
+						</li>
+						<li data-section="docs/studio-globalArea">
+							<a href="/docs/studio-globalArea.html"><i class="fa fa-caret-right"></i> 글로벌 영역</a>
+						</li>
+						<li data-section="docs/studio-UI">
+							<a href="/docs/studio-UI.html"><i class="fa fa-caret-right"></i> UI 아이템</a>
+						</li>
+						<li data-section="docs/studio-screenArea">
+							<a href="/docs/studio-screenArea.html"><i class="fa fa-caret-right"></i> 작업 영역</a>
+						</li>
+						<li data-section="docs/studio-Action">
+							<a href="/docs/studio-Action.html"><i class="fa fa-caret-right"></i> 액션창</a>
+						</li>
+						<li data-section="docs/studio-console">
+							<a href="/docs/studio-console.html"><i class="fa fa-caret-right"></i> 콘솔창</a>
+						</li>
+					</ul>
+				</li>
+<!--				<li class="nav nav-sub">
+					<ul class="nav nav-list">
+						<li data-section="docs/studio-02-01">
+							<a href="/docs/studio-02.html"><i class="fa fa-caret-right"></i> Items</a>
+						</li>
+					</ul>
+				</li>-->
+				<!--<li data-section="docs/studio-05"><a href="/docs/studio-05.html">메모리 관리</a></li>-->
+				<li class="nav-header">Boosting</li>
+				<li data-section="docs/boost"><a href="/docs/boost.html">부스팅</a></li>
+				<li class="divider"></li>
+				<li class="nav-header">DISTRIBUTE YOUR APPS</li>
+				<li data-section="docs/distribute-cert"><a href="/docs/distribute-cert.html">인증서 발급&통합</a></li>
+				<!--<li data-section="docs/distribute-01"><a href="/docs/distribute-01.html">개발자 등록</a></li>-->
+				<li data-section="docs/distribute-image"><a href="/docs/distribute-image.html">아이콘 & 스플래시</a></li>
+				<li data-section="docs/distribute-build"><a href="/docs/distribute-build.html">빌드 서비스</a></li>
+				<li data-section="docs/distribute-push"><a href="/docs/distribute-push.html">푸시 서비스</a></li>
+				<li class="divider"></li>
+				<li class="nav-header">EXTEND YOUR APPS</li>
+				<li data-section="docs/extend-template"><a href="/docs/extend-template.html">템플릿</a></li>
+				<li data-section="docs/extend-native-module"><a href="/docs/extend-native-module.html">네이티브 모듈</a></li>
+				<li class="nav-header">Extra</li>
+				<li data-section="docs/extra-mapkey"><a href="/docs/extra-mapkey.html">Google API Key</a></li>
+			</ul>
+			<div class="space55"></div>
+		</div>
+		<div class="col-md-10" style="border-left: 1px solid #F9F9F9;padding: 0px 40px 40px 40px;border-right: 1px solid #F9F9F9;">
+			{{ content }}
+		</div>
+	</div>
+</div>
+<script>
+	$(document).ready(function(){
+		$('#menu [data-section="{{page.section}}"]').addClass('active');
+	});
+</script>
+
+<!-- Docs CSS -->
+<link rel="stylesheet" href="{{ "/assets/css/docs.css" | prepend: site.baseurl }}">
+<link rel="stylesheet" href="{{ "/assets/css/syntax.css" | prepend: site.baseurl }}">
+<!--
+GETTING STARTED
+	플랫폼 소개
+	가입방법
+
+APP DESIGN STUDIO
+	앱 제작 준비
+	프로젝트 생성
+	앱 제작 화면 소개
+		- 서버 연결, 윈도우 추가, 코드 추가
+		- 아이템 목록, 드래그 시스템
+		- 속성, 이벤트 사용법
+		- tiapp.xml 설정
+		- 각 아이템 사용법
+	더코어 다운로드
+	템플릿 기능
+	모듈 기능
+
+CERTIFICATE MANAGEMENT
+	Android
+		- 키스토어 정보 입력 및 발급 방법
+	iOS
+		- 비밀키 생성
+		- CSR 생성
+		- appKey 생성
+
+DISTRIBUTE YOUR APPS
+	컴파일 준비
+		- 이미지 준비
+		- 아이콘 준비
+		- 인증서 준비
+	푸시 서비스 사용법
+-->

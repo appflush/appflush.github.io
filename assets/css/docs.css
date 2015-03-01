@@ -1,0 +1,165 @@
+/* @license
+ * MyFonts Webfont Build ID 2341569, 2012-08-09T16:00:31-0400
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: Proxima Nova Regular by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/regular/
+ *
+ * Webfont: Proxima Nova Bold by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/bold/
+ *
+ * Webfont: Proxima Nova Thin by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/thin/
+ *
+ * Webfont: Proxima Nova Light by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/light/
+ *
+ * Â© 2012 Bitstream Inc
+*/
+
+.navbar-inner {
+  padding: 5px 0px;
+  background-image: none;
+  background-color: rgba(0, 0, 0, 0.7);
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+}
+
+.navbar .nav.pull-right li {
+  line-height: 42px
+}
+.navbar .nav.pull-right a {
+  margin-right: 40px;
+  text-decoration: none;
+  color: #ccc;
+  font-size: 13px;
+  text-shadow: none;
+}
+.navbar .nav.pull-right li:last-child a {
+  margin-right: 0px;
+}
+.navbar .nav.pull-right a:hover {
+  color: #fff;
+}
+.navbar .nav.pull-right a.orange-button {
+  display: inline-block;
+}
+.nav-sub {
+	margin-left: 15px;
+}
+.title {
+	font-weight: bold;
+	font-size: 16px;
+	margin: 0 0 30px 0;
+}
+.title .title_sub{
+	font-size: 14px;
+	margin: 10px;
+}
+.explain {
+	margin-right: -50px;
+}
+.explain .detail {
+	font-size:13px;
+	padding-bottom: 30px;
+	line-height: 180%;
+}
+.explain .movie {
+}
+.docsContainer .hr {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.docsContainer .divider {
+	padding-top:10px;
+}
+.docsContainer .space55 {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.docsContainer .space54 {
+	padding-top: 50px;
+	padding-bottom: 40px;
+}
+.docsContainer .space45 {
+	padding-top: 40px;
+	padding-bottom: 50px;
+}
+.docsContainer .space35 {
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+.docsContainer .space53 {
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+.docsContainer .space44 {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.docsContainer .space33 {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.docsContainer .space22 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.docsContainer .space11 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.docsContainer h1 {
+	margin:0 0 20px 0;
+	color:#256EA0;
+}
+.docsContainer h2 {
+	margin:30px 0 10px 0;
+}
+.docsContainer h3 {
+	margin:20px 0 10px 0;
+}
+.docsContainer h4 {
+	margin:20px 0 10px 0;
+}
+.docsContainer h5 {
+	margin:10px 0 10px 0;
+}
+.docsContainer h6 {
+	margin:10px 0 10px 0;
+}
+#menu li.nav-header {
+	color: #384452;
+	font-size: .7em;
+	text-transform: uppercase;
+}
+#menu li a {
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+#menu li a {
+  color: #333;
+  text-shadow: none;
+}
+#menu li.active a {
+  background-color: #33a5c8;
+  color: #fff;
+}
+.orange-button {
+  display: inline-block;
+  line-height: 20px;
+  border-radius: 20px;
+  vertical-align: middle;
+  color: #ffffff !important;
+  background-image: linear-gradient(90deg, #dc534b 0%, #d96f5f 100%);
+  background-image: -moz-linear-gradient(90deg, #dc534b 0%, #d96f5f 100%);
+  background-image: -webkit-linear-gradient(90deg, #dc534b 0%, #d96f5f 100%);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .2);
+  padding: 0px 10px;
+}
