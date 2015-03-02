@@ -29,9 +29,12 @@ permalink: /
 		text-align: center;
 	}
 	.rowMargin .dis-item{
-		padding: 10px 0;
+		padding: 50px 0;
 		border-top: 1px solid #E8E8E8;
 		border-bottom: 1px solid #E8E8E8;
+	}
+	.rowMargin .dis-item .title{
+		margin-top:10px;margin-bottom: 30px;
 	}
 	.rowMargin .dis-item:hover{
 		cursor: default;
@@ -85,66 +88,127 @@ permalink: /
 	margin-bottom: 24px;
 	margin-bottom: 1.5rem;
 	}
+	.sectionTitle {
+		font-size: 48px;line-height: 48px;padding-top: 15px;
+	}
+	.sectionContents {
+		margin-top:30px;font-size: 16px;color: #373737;font-weight: normal;
+	}
 </style>
 
-
-<div class="page-lead" style="background-image: url(/assets/img/index//dark_mosaic.png);">
+<div class="page-lead" style="background: url(/assets/backgound01.jpg) 100% 50% no-repeat;background-size: cover;height: 500px;">
 	<div class="wrap page-lead-content">
-		<h1>Titanium GUI Web Studio</h1>
-		<div>
-			<p>
-				여러분의 App 을 만들어 보세요.</br>
-				무료 서비스로 시작하세요.
-			</p>
+		<h1 style="font-family:Raleway;font-size: 50px;">Build Native App</h1>
+		<div style="font-size:30px;">
+			All you need is your Laptop and Phone
+		</div>
+		<div style="margin-top:30px;font-size:18px;">
+			You just focus on your contents
+		</div>
+		<div style="margin-top:10px;font-size:14px;">
+			Boost Your App With Your Friends..<br/>
+			It's Not WebApp, It's Native App.
+		</div>
+		<div style="margin-top:100px;">
+			<a class="btn btn-default btn-lg" href="/signUp"> Get started for free </a>
 		</div>
 	</div><!-- /.page-lead-content -->
  </div>
 
-<!--main content-->
-<section class="mainContentWrap" style="padding: 80px 0;background-color: #F6F6F6;border-bottom: 1px solid #E4E4E4;">
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-12">
-				<h2 style="text-align: center;color: #292929;">
-					App을 제작하기 위한 모든 것을 제공 합니다.
-				</h2>
-				<hr style="margin: 30px 0 50px 0;border-top: 1px solid #DADADA;border-bottom: 1px solid #FFF;"/>
-				<div class="row">
-					<div class="col-sm-5">
-						<div style="text-align: center;">
-							<img src="/assets/img/index/items.gif" style="width:250px;">
-						</div>
-					</div> <!-- close .span5 -->
-					<div class="col-sm-7 mainSection">
-						<ul>
-							<li>App UI 기획을 위한 가장 빠르고 손쉬운 방법</li>
-							<li>App UI 디자인을 위한 가장 최적화된 환경 제공</li>
-							<li>오로지 웹에서 처음부터 마지막까지 모든 과정 제공</li>
-							<li>실제 디바이스에 내장된 Native UI를 사용</li>
-							<li>이벤트를 사용한 반응형 프로토타입 생성</li>
-							<li>제작한 Prototype을 실제 앱으로 컴파일</li>
-						</ul>
-						<a href="#" class="btn btn-large btn-danger" style="margin-top:30px;">
-							<i class="icon fa fa-file-alt"></i> Read More Overview
-						</a>
-					</div> <!-- close .span7 -->
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
+
 <section class="mainContentWrap" style="padding: 80px 0;">
 	<div class="container">
 		<div class="row">
+			<div class="col-sm-5 center">
+				<img class="section-icons" src="/assets/index/allinone.jpg">
+			</div>
+			<div class="col-sm-7">
+				<div>
+					<p class="sectionTitle">
+						All In One
+					</p>
+					<p class="sectionContents">
+						App을 제작하기 위해 필요한 모든것을 제공하고 있습니다. App을 제작할 수 있는 웹 기반 스튜디오, 스튜디오에서 제작되는 과정을 내 스마트폰에서 실시간으로 확인 할 수 있는 TheCore Preivew App, 제작 완료한 App을 배포하기 위한 바이너리 파일로 만들기 위한 빌드 서비스와 인증서 서비스까지. AppFlush와 함께라면 별도의 App개발 환경을 구축 하실 필요가 없습니다. 이제 여러분은 디자인과 컨텐츠에 포커스를 맞추세요.
+					</p>
+					<div class="space33"></div>
+					<a class="btn btn-primary btn-large" href="/docs"> 자세히 보기 </a> <a class="btn btn-success btn-large" href="/signUp"> 무료로 시작하기 </a>
+				</div>
+			</div>
+		</div>
+		<div class="space33"></div>
+		<hr/>
+		<div class="space33"></div>
+		<div class="row">
+			<div class="col-sm-7">
+				<div>
+					<p class="sectionTitle">
+						GUI Web Studio
+					</p>
+					<p class="sectionContents">
+						디자인 중심에 편집기를 이용해 코드 없이 App을 만들어 보세요. GUI Studio를 이용하면 드래그&드랍으로 App을 만들 수 있습니다. 오픈소스 기반의 Titanium SDK를 내장하고 있어 Javascript를 이용해 유연하고 확장성있는 App제작도 가능 합니다.
+					</p>
+					<div class="space33"></div>
+					<a class="btn btn-primary btn-large" href="/docs/studio.html"> 자세히 보기 </a> <a class="btn btn-success btn-large" href="/signUp"> 무료로 시작하기 </a>
+				</div>
+			</div>
+			<div class="col-sm-5 center">
+				<img class="section-icons" src="/assets/index/studio.jpg">
+			</div>
+		</div>
+		<div class="space33"></div>
+		<hr/>
+		<div class="space33"></div>
+		<div class="row">
+			<div class="col-sm-5 center">
+				<img class="section-icons" src="/assets/index/thecore.jpg">
+			</div>
+			<div class="col-sm-7">
+				<p class="sectionTitle">
+					TheCore Preview
+				</p>
+				<p class="sectionContents">
+					내 스마트폰과 App 스튜디오를 연결해 실시간으로 제작 과정을 확인할 수 있습니다. TheCore Preview는 App 형태로 제공되며 App을 디바이스에 설치해 사용하실 수 있습니다. App 스튜디오는 디바이스의 정보를 이용해 자동으로 사용자의 개발 편의성을 향상 시켜줍니다.
+				</p>
+				<div class="space33"></div>
+				<a class="btn btn-primary btn-large" href="/docs/project-thecore.html"> 자세히 보기 </a> <a class="btn btn-success btn-large" href="/signUp"> 무료로 시작하기 </a>
+			</div>
+		</div>
+		<div class="space33"></div>
+		<hr/>
+		<div class="space33"></div>
+		<div class="row">
+			<div class="col-sm-7">
+				<p class="sectionTitle">
+					Boosting
+				</p>
+				<p class="sectionContents">
+					내가 제작한 프로젝트를 친구들과 함께 만들어 보세요. 친구들과 프로젝트를 더욱 향상시켜 더 좋은 App을 만들 수 있습니다. 내가 만든 App 뿐만 아니라 친구들이 만든 App도 TheCore Preview를 통해 실시간으로 확인할 수 있습니다. 친구와 함께 나의 노하우를 곁들여 향상시켜 보세요.
+				</p>
+				<div class="space33"></div>
+				<a class="btn btn-primary btn-large" href="/docs/boost.html"> 자세히 보기 </a> <a class="btn btn-success btn-large" href="/signUp"> 무료로 시작하기 </a>
+			</div>
+			<div class="col-sm-5 center">
+				<img class="section-icons" src="/assets/index/boosting.jpg">
+			</div>
+		</div>
+		<div class="space33"></div>
+		<hr/>
+		<div class="space33"></div>
+	</div>
+</section>
+<!--main content-->
+<section class="mainContentWrap">
+	<div class="container">
+		<div class="row">
 			<div class="col-sm-12">
 				<div class="row">
-					<h3 style="font-size:2.5em;margin-bottom: 50px;text-align: center;color: #292929;">
+					<h3 style="font-family:Raleway;font-size:2.5em;margin-bottom: 50px;text-align: center;color: #292929;">
 						OUR AMAZING SERVICES
 					</h3>
 					<div class="row rowMargin">
 						<div class="col-sm-4 dis-item">
 							<i class="fa fa-desktop fa fa-5x"></i>
-							<h4 style="margin-top:10px;">직관적인 제작 환경</h4>
+							<h4 class="title">직관적인 제작 환경</h4>
 							사용자 중심의 직관적인 UI Studio를 제공합니다. <br/>
 							쉽게 그리고 빠르게 앱을 제작할 수 있습니다.
 						</div>
@@ -152,13 +216,13 @@ permalink: /
 							<i class="fa fa-eye fa-5x"></i>
 							<i class="fa fa-exchange fa fa-2x"></i>
 							<i class="fa fa-cloud fa fa-5x"></i>
-							<h4 style="margin-top:10px;">실시간 디바이스 프리뷰</h4>
+							<h4 class="title">실시간 디바이스 프리뷰</h4>
 							Studio를 통해  실시간으로 앱을 만들어 보세요.<br/>
 							자신의 디바이스에 실시간으로 적용 됩니다.
 						</div>
 						<div class="col-sm-4 dis-item">
 							<i class="fa fa-code-fork fa fa-5x center"></i>
-							<h4 style="margin-top:10px;">완전한 네이티브 UI</h4>
+							<h4 class="title">완전한 네이티브 UI</h4>
 							완전한 Native UI를 지원 합니다.<br/>
 							디바이스에 내장된 UI를 이용하여 빠르고 견고 합니다.
 						</div>
@@ -166,20 +230,20 @@ permalink: /
 					<div class="row rowMargin">
 						<div class="col-sm-4 dis-item">
 							<i class="fa fa-sitemap fa fa-5x"></i>
-							<h4 style="margin-top:10px;">멀티 OS 지원</h4>
+							<h4 class="title">멀티 OS 지원</h4>
 							Android는 물론이고 IOS까지 지원 합니다.<br/>
 							OS에 따른 최적화된 UI를 지원 합니다.
 						</div>
 						<div class="col-sm-4 dis-item">
 							<i class="fa fa-mobile-phone fa fa-5x"></i>
 							<i class="fa fa-tablet fa fa-5x"></i>
-							<h4 style="margin-top:10px;">멀티 디스플레이 지원</h4>
+							<h4 class="title">멀티 디스플레이 지원</h4>
 							아이폰의 레티나 디스플레이는 물론,<br/>
 							안드로이드의 모든 크기의 해상도를 지원 합니다.
 						</div>
 						<div class="col-sm-4 dis-item">
 							<i class="fa fa-bolt fa fa-5x"></i>
-							<h4 style="margin-top:10px;">커스텀 이벤트</h4>
+							<h4 class="title">커스텀 이벤트</h4>
 							UI 뿐만 아니라 디바이스의 동작까지 컨트롤 합니다.<br/>
 							실제로 반응하는 앱을 제작해 보세요.
 						</div>
@@ -187,21 +251,21 @@ permalink: /
 					<div class="row rowMargin">
 						<div class="col-sm-4 dis-item">
 							<i class="fa fa-globe fa fa-5x"></i>
-							<h4 style="margin-top:10px;">네트워크 연동</h4>
+							<h4 class="title">네트워크 연동</h4>
 							미리 구축된 REST 및 서비스가 있으신가요?<br/>
 							네트워크 기능을 통해 구현해 보세요.
 						</div>
 						<div class="col-sm-4 dis-item">
 							<i class="fa fa-road fa fa-5x"></i>
-							<h4 style="margin-top:10px;">인증서 간략화 서비스</h4>
+							<h4 class="title">인증서 간략화 서비스</h4>
 							복잡한 플랫폼별 인증서 관리,<br/>
 							인증서 통합 서비스를 제공 합니다.
 						</div>
 						<div class="col-sm-4 dis-item">
 							<i class="fa fa-cloud-upload fa fa-5x"></i>
-							<h4 style="margin-top:10px;">Push 서비스 지원</h4>
+							<h4 class="title">Push 서비스 지원</h4>
 							다양한 확장 기능을 지원 합니다.<br/>
-							푸시 서비스를 이용해 푸시 서비스를 테스트해 보세요.
+							푸시 서비스를 이용해 디바이스에 메세지를 보내보세요.
 						</div>
 					</div>
 				</div>

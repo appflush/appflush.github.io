@@ -459,3 +459,46 @@ csmall {
 	padding-right: 15px;
 	font-size: 18px;
 }
+.hr {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.divider {
+	padding-top:10px;
+}
+.space55 {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.space54 {
+	padding-top: 50px;
+	padding-bottom: 40px;
+}
+.space45 {
+	padding-top: 40px;
+	padding-bottom: 50px;
+}
+.space35 {
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+.space53 {
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+.space44 {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.space33 {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.space22 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.space11 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
