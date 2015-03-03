@@ -34,9 +34,9 @@ Google Play에는 AppFlush 에서 추천하는 기본 설정으로 빌드되어 
 
 <div class="explain row">
 	<div class="detail col-xs-12 col-md-4">
-		더코어 프리뷰의 설정을 변경하거나 확장 모듈을 포함하여 직접 빌드해 설치 할 수 있습니다.
+		더코어 프리뷰의 설정을 변경하거나 확장 모듈을 포함하여 직접 빌드해 설치 할 수 있다.
 		<div class="space11"></div>
-		빌드가 완료되면 APK 파일을 다운로드 받을 수 있습니다. 또는 디바이스의 QRcode 프로그램을 이용해 디바이스에 직접 다운로드 받아 설치하실 수 있습니다.
+		빌드가 완료되면 APK 파일을 다운로드 받을 수 있다. 또는 디바이스의 QRcode 프로그램을 이용해 디바이스에 직접 다운로드 받아 설치할 수 있다.
 	</div>
 	<div class="movie col-xs-12 col-md-8">
 		<iframe class="thumbnail" id="ytplayer" type="text/html" width="100%" height="720"
@@ -54,11 +54,12 @@ frameborder="0" allowfullscreen></iframe>
 </div>
 <div class="explain row">
 	<div class="detail col-xs-12 col-md-4">
-		더코어 프리뷰의 설정을 변경하거나 확장 모듈을 포함하여 직접 빌드해 설치 할 수 있습니다.
+		더코어 프리뷰의 설정을 변경하거나 확장 모듈을 포함하여 직접 빌드해 설치 할 수 있다.
 		<div class="space11"></div>
-		iOS의 경우 appkey를 미리 생성 하셔야 합니다. appkey는 <a href="/docs/distribute-cert.html">인증서 발급/설치</a> 섹션 에서 자세히 알아볼 수 있습니다.
+		iOS의 경우 appkey를 미리 생성해야 한다.<br/>
+		<a href="/docs/distribute-cert.html">[자세히 보기]</a>
 		<div class="space11"></div>
-		빌드가 완료되면 IPA 설치 파일을 다운로드 받을 수 있습니다. 또는 디바이스의 QRcode 프로그램을 이용해 디바이스에 직접 다운로드 받아 설치하실 수 있습니다.
+		빌드가 완료되면 IPA 설치 파일을 다운로드 받을 수 있으며 디바이스의 QRcode 프로그램을 이용해 디바이스에 직접 다운로드 받을 수 있다.
 	</div>
 	<div class="movie col-xs-12 col-md-8">
 		<iframe class="thumbnail" id="ytplayer" type="text/html" width="100%" height="720"
