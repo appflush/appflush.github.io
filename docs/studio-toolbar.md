@@ -89,7 +89,7 @@ App Studio - Toolbar
 </div>
 <div class="explain row">
 	<div class="detail col-xs-12 col-md-6">
-		글로벌 아이템 영역에 모듈(commonJS), 스크립트(Titanium Script) 아이템을 생성한다. 직접 스크립트를 이용해 App을 제작 할 수 있는 기능이다.
+		글로벌 아이템 영역에 모듈(commonJS), 스크립트(Titanium Script) 아이템을 생성한다. 직접 스크립트를 이용해 App을 제작할 수 있다.
 	</div>
 	<div class="movie col-xs-12 col-md-6">
 		<a class="thumbnail" href="/docs/images/studio_toolbar_script_module.png" data-lightbox="studio_toolbar_script_module" data-title="module">
@@ -137,7 +137,7 @@ App Studio - Toolbar
 </div>
 <div class="explain row">
 	<div class="detail col-xs-12 col-md-6">
-		드랍된 아이템을 서버에서 영구 제거한다. 디바이스에도 적용한다.
+		드랍된 아이템을 서버에서 영구 제거한다. 디바이스에도 적용되어 아이템이 삭제 된다.
 	</div>
 	<div class="movie col-xs-12 col-md-6">
 		<a class="thumbnail" href="/docs/images/studio_toolbar_trash.png" data-lightbox="studio_toolbar_trash" data-title="trash">
