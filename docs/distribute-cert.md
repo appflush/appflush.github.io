@@ -102,10 +102,12 @@ frameborder="0" allowfullscreen></iframe>
 	<div class="detail col-xs-12 col-md-6">
 		<strong>Private Key 발급</strong>
 		<div class="space11"></div>
-		발급된 Private Key는 서버에 저장되지 않습니다.<br/>
+		발급된 Private Key는 서버에 저장되지 않는다.<br/>
 		Private Key는 인증서, CSR, 프로비저닝 파일등을 생성하기 위해 필요한 파일로, 분실되지 않도록 안전한 곳에 백업해 놓는 것이 좋다.
 		<div class="space11"></div>
 		인증서 관리 > private Key 발급 페이지에서 발급 받을 수 있다.
+		<div class="space11"></div>
+		OSX상에서 생성한 키가 있다면 PKCS12 포맷으로 추출해 Private Key를 대신할 수 있다. <a href="/docs/distribute-p12.html">[자세히 보기]</a>
 	</div>
 	<div class="movie col-xs-12 col-md-6">
 
