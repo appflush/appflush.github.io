@@ -9,7 +9,7 @@ Welcome
 
 AppFlush는 여러분이 프리미엄 App을 만드는 최적의 환경을 제공 합니다.
 
-앞으로 소개될 다양한 서비스들을 이용하시면 빠르고 최적화된 App을 제작할 수 있습니다.
+앞으로 소개될 다양한 서비스들을 이용해 빠르고 최적화된 App을 제작해 보세요.
 
 > 값 비싼 개발 장비 구입도, 어려운 개발환경 구축도 필요하지 않습니다.<br/>
 > 이 모든 것은 **오직 여러분의 스마트폰과 브라우저안에서만 이루어 집니다.**
@@ -44,7 +44,7 @@ AppFlush 플랫폼은 오픈소스인 [Titanium SDK](http://www.appcelerator.com
 	<img src="/docs/images/ui_1.png" alt="" width="60%"/>
 </a>
 
-우리는 App을 제작하는데 있어 어떠한 UI제한을 두지 않습니다. 다만 직접 제작할 수 있는 부품들을 제공 합니다. 여러분이 가지고 있는 아이디어 그대로 App을 제작해 보세요. 엄격한 제한을 주는 템플릿을 벗어나, 여러분만의 아이디어 넘치는 독창적인 App을 제작해 보세요. Graphical User Interface App Studio, TheCore Preview 등의 서비스는 여러분에게 시각적인 제작 환경을 지원 합니다.
+우리는 App을 제작하는데 있어 어떠한 UI제한을 두지 않습니다. 다만 직접 제작할 수 있는 부품들을 제공 합니다. 여러분이 가지고 있는 아이디어 그대로 App을 제작해 보세요. 엄격한 제한을 주는 템플릿을 벗어나, 여러분만의 아이디어 넘치는 독창적인 App을 제작해 보세요. GUI<small>(Graphical User Interface)</small> App Studio, TheCore Preview 등의 서비스는 여러분에게 시각적인 제작 환경을 지원 합니다.
 
 <div class="space33"></div>
 
