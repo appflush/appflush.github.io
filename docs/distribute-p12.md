@@ -22,7 +22,7 @@ OSX 상에서 생성된 비밀키를 PKCS 12 포맷으로 추출하는 방법을
 
 <div class="explain row">
 	<div class="detail col-xs-12 col-md-6">
-		키체인에 기존에 생성한 개인 키를 추출한다.
+		키체인에서 기존에 생성한 개인 키를 추출한다.
 	</div>
 	<div class="movie col-xs-12 col-md-6">
 		<a class="thumbnail" href="/docs/images/p12_export.png" data-lightbox="p12_export" data-title="">
@@ -42,7 +42,7 @@ OSX 상에서 생성된 비밀키를 PKCS 12 포맷으로 추출하는 방법을
 </div>
 <div class="explain row">
 	<div class="detail col-xs-12 col-md-6">
-		6자리 이상의 비밀번호를 입력 합니다. <strong>AppKey</strong>생성시에 사용된다.
+		6자리 이상의 비밀번호를 한다. <strong>AppKey</strong>생성시에 사용된다.
 	</div>
 	<div class="movie col-xs-12 col-md-6">
 		<a class="thumbnail" href="/docs/images/p12_pass.png" data-lightbox="p12_pass" data-title="">
