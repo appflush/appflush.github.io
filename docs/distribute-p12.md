@@ -16,7 +16,7 @@ PKCS 12 Format
 	비밀키 추출
 </div>
 
-OSX 상에서 생성된 비밀키를 PKCS 12 포맷으로 추출하는 방법을 설명 합니다. 이 파일은 AppFlush에서 발급한 Private Key를 대신 합니다.
+OSX 상에서 생성된 비밀키를 PKCS 12 포맷으로 추출하는 방법을 설명 합니다. 이 파일은 AppFlush에서 발급한 Private Key를 대신해 사용 합니다.
 
 <div class="space11"></div>
 
