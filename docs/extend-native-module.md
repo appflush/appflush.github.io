@@ -13,10 +13,10 @@ Native Module
 <div class="space33"></div>
 
 <div class="title row">
-	native module
+	네이티브 확장 모듈
 </div>
 
-네이티브 모듈은 Titanium의 확장성을 지원하는 가장 중요한 요소로서 Titanium SDK에서 기본으로 지원하는 기능 이외에 새롭게 발전된 형태의 기능을 추가 할 수 있는 핵심 주요 기능 입니다. [모듈 마켓](https://marketplace.appcelerator.com/home)에는 이미 수많은 모듈을 여러 형태의 라이센스(무료, 오픈소스, 유료)로 판매하고 있습니다. 이 모든 모듈들을 AppFlush에서 손쉽게 연동할 수 있습니다.
+네이티브 모듈은 Titanium의 확장성을 지원하는 가장 중요한 요소로서 Titanium SDK에서 기본으로 지원하는 기능 이외에 새롭게 개발된 기능을 추가 할 수 있는 주요 핵심 기능 입니다. [모듈 마켓](https://marketplace.appcelerator.com/home)에는 이미 수많은 모듈을 여러 형태의 라이센스(무료, 오픈소스, 유료)로 판매하고 있습니다. 이 모든 모듈들을 AppFlush에서 손쉽게 연동할 수 있습니다.
 
 <div class="space33"></div>
 

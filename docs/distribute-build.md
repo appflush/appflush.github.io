@@ -61,7 +61,7 @@ Build <small>Compile</small>
 			<dt>App Icon</dt>
 			<dd>App 아이콘</dd>
 			<dt>Splash Image</dt>
-			<dd>App 스플래시 이미지</dd>
+			<dd>App 스플래시 이미지 <a href="/docs/distribute-image.html"><small>[자세히 보기]</small></a></dd>
 		</dl>
 	</div>
 	<div class="movie col-xs-12 col-md-6">

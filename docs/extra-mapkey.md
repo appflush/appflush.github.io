@@ -56,7 +56,7 @@ AppFlush의 MapView 아이템은 Android의 Google Maps v2 모듈을 사용합�
 </div>
 <div class="explain row">
 	<div class="detail col-xs-12 col-md-6">
-		프로젝트 수정 페이지로 이동해 MapKey를 입력한다.
+		프로젝트 빌드 전에 수정 페이지로 이동해 MapKey를 입력한다.
 	</div>
 	<div class="movie col-xs-12 col-md-6">
 		<a class="thumbnail" href="/docs/images/extra_mapkey_mapkey.png" data-lightbox="extra_mapkey_mapkey" data-title="">

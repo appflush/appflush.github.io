@@ -31,7 +31,7 @@ App은 실행시에 데이타를 메모리에 로드하는 과정이 필요 합�
 
 **자동화**
 
-Android와 iOS의 경우 서로 다른 디바이스와 스크린 사이즈를 고려해 여러 해상도의 아이콘과 스플래시 이미지를 만들어야 합니다. 이러한 작업은 적지 않은 노력이 요구 됩니다. 하지만 AppFlush에서는 다음 규격을 맞춰 업로드 하면 이러한 작업을 <a href="https://github.com/FokkeZB/TiCons" target="_blank" class="btn btn-link">TiCons <i class="fa fa-external-link"></i></a>를 통해 자동으로 처리 합니다.
+Android와 iOS의 경우 서로 다른 디바이스와 스크린 사이즈를 고려해 여러 해상도의 아이콘과 스플래시 이미지를 만들어야 합니다. 이러한 작업은 제작자에게 적지 않은 비용과 노력이 요구 됩니다. 하지만 AppFlush에서는 다음 규격을 맞춰 업로드 하면 이러한 작업을 <a href="https://github.com/FokkeZB/TiCons" target="_blank" class="btn btn-link">TiCons <i class="fa fa-external-link"></i></a>를 통해 자동으로 처리 합니다.
 
 <div class="space11"></div>
 
@@ -42,12 +42,12 @@ Android와 iOS의 경우 서로 다른 디바이스와 스크린 사이즈를 �
 	* 512x512 or 1024x1024
 	* <a href="http://site.appflush.com/assets/boot/appflush_appicon.png" target="_blank" class="btn btn-link">예제(example) <i class="fa fa-external-link"></i></a>
 1. 스플래시 이미지
-	* 정 중앙 1000x1000 pixels 안에 디자인 배치된 2208x2208 크기의 이미지
+	* 정 중앙 1000x1000 pixels 안에 디자인이 배치된 2208x2208 크기의 이미지
 	* <a href="http://site.appflush.com/assets/boot/appflush_splash.png" target="_blank" class="btn btn-link">예제(example) <i class="fa fa-external-link"></i></a>
 
 <div class="space11"></div>
 
-**변환되는 해상도**
+**자동으로 변환되는 해상도**
 
 1. Android
 	* ldpi
@@ -69,6 +69,8 @@ Android와 iOS의 경우 서로 다른 디바이스와 스크린 사이즈를 �
 <div class="explain row">
 	<div class="detail col-xs-12 col-md-6">
 		이미지는 App 빌드 신청시에 규격에 맞춰 업로드 한다.
+		<div class="space11"></div>
+		<a href="/docs/distribute-build.html">[자세히 보기]</a>
 	</div>
 	<div class="movie col-xs-12 col-md-6">
 		<a class="thumbnail" href="/docs/images/splash_2.png" data-lightbox="splash_2" data-title="">
