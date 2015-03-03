@@ -7,7 +7,7 @@ section: docs/distribute-p12
 PKCS 12 Format
 ===================
 
-이 문서에서는 기존에 Apple 개발자 인증서를 보유하고 계신 경우 기존 인증서를 통해 Appkey를 생성하는 방법을 설명 합니다.
+이 문서에서는 OSX 키체인 상에서 Apple 개발자 인증서를 생성한 경우, 해당 인증서를 PKCS 12 포맷으로 추출하는 방법을 설명 합니다.
 
 <hr/>
 <div class="space33"></div>
@@ -50,6 +50,11 @@ OSX 상에서 생성된 비밀키를 PKCS 12 포맷으로 추출하는 방법을
 		</a>
 	</div>
 </div>
+
+<div class="title row">
+	AppKey 발급
+</div>
+
 <div class="explain row">
 	<div class="detail col-xs-12 col-md-6">
 		위에서 생성한 개인 정보 교환(.p12) 파일은 Private Key를 대신한다.
