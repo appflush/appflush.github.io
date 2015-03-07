@@ -1,5 +1,5 @@
 ---
-title: UI Items - UI Items
+title: App Studio - UI Items
 layout: docs
 section: docs/studio-UI
 ---
