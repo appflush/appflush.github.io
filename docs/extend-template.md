@@ -18,6 +18,10 @@ Template <small>experimental</small>
 
 템플릿은 기존에 제작된 Titanium 코드를 AppFlush 플랫폼과 연동해 사용 할 수 있도록 하는 확장 기능 입니다. 템플릿을 사용하면 기존에 수많은 Titanium 오픈 코드를 손쉽게 AppFlush와 연결해 활용 하실 수 있습니다.
 
+<div class="space33"></div>
+<hr/>
+<div class="space33"></div>
+
 <div class="title row">
 	동작 방식
 </div>
