@@ -42,7 +42,7 @@ OSX 상에서 생성된 비밀키를 PKCS 12 포맷으로 추출하는 방법을
 </div>
 <div class="explain row">
 	<div class="detail col-xs-12 col-md-6">
-		6자리 이상의 비밀번호를 한다. <strong>AppKey</strong>생성시에 사용된다.
+		6자리 이상의 비밀번호를 입력 한다. <strong>AppKey</strong>생성시에 사용된다.
 	</div>
 	<div class="movie col-xs-12 col-md-6">
 		<a class="thumbnail" href="/docs/images/p12_pass.png" data-lightbox="p12_pass" data-title="">
