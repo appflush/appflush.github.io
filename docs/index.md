@@ -54,7 +54,7 @@ AppFlush 플랫폼은 오픈소스인 [Titanium SDK](http://www.appcelerator.com
 
 우리는 대표적으로 사용되는 다음의 Mobile OS를 지원 하고 있습니다.
 
-- **Android Device** *(Android 4.0 Ice Cream Sandwich 이상)*
+- **Android Device**
 -- Android Phone, Tablet
 - **iOS Device** *(iOS 7.0 이상)*
 -- iPhone, iPad and iPod touch
