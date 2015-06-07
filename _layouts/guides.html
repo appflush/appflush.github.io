@@ -7,51 +7,187 @@ active: Guides
 	.thumbnails {
 		list-style: none;
 	}
+	.caption p{
+		font-size:1em;
+	}
+	.sub {
+		margin:10px 0;
+	}
+	.red {
+		color:red;
+	}
+	.blue {
+		color:blue;
+	}
+	.green {
+		color:green;
+	}
 </style>
 <div class="docsContainer container">
 	<div class="row">
-		<ul class="thumbnails">
-
-			<li class="col-sm-3">
-				<div class="thumbnail">
-					<img alt="300x250" src="http://placehold.it/300x250">
-					<div class="caption">
-						<h6><a href="javascript:;">앱 스튜디오 기본 사용법</a></h6>
-						<p>앱 스튜디오 기본 사용법을 설명 합니다.</p>
+		<div class="col-sm-6">
+			<h3><i class="fa fa-caret-right"></i> 플랫폼</h3>
+			<div class="list-group">
+				<a href="#" class="list-group-item">
+					<h4 class="list-group-item-heading">
+						<i class="fa fa-youtube-play"></i> App 제작 과정 및 순서
+					</h4>
+					<p class="list-group-item-text"><small>프로젝트, 인증서, App 컴파일까지의 모든 과정을 설명합니다.</small></p>
+				</a>
+			</div>
+		</div>
+		<div class="col-sm-6">
+			<h3><i class="fa fa-caret-right"></i> 시작하기</h3>
+			<div class="list-group">
+				<a href="#" class="list-group-item">
+					<h4 class="list-group-item-heading">
+						<i class="fa fa-youtube-play"></i> App 스튜디오
+					</h4>
+					<p class="list-group-item-text"><small>App 스튜디오의 기본 사용법을 설명합니다.</small>
+					</p>
+				</a>
+				<a href="#" class="list-group-item">
+					<h4 class="list-group-item-heading">
+						<i class="fa fa-youtube-play"></i> Hello World
+					</h4>
+					<p class="list-group-item-text"><small>Hello World를 출력하는 App을 만드는 과정을 설명합니다.</small></p>
+				</a>
+				<a href="#" class="list-group-item">
+					<h4 class="list-group-item-heading">
+						<i class="fa fa-youtube-play"></i> 부스팅
+					</h4>
+					<p class="list-group-item-text"><small>부스팅 공유 방식의 편리함과 사용법을 설명합니다.</small></p>
+				</a>
+			</div>
+		</div>
+	</div>
+	<hr />
+	<div class="row">
+		<div class="col-sm-6">
+			<h3><i class="fa fa-caret-right"></i> 디자인 UI</h3>
+			<div class="list-group">
+				<div href="#" class="list-group-item">
+					<h4 class="list-group-item-heading">
+						<i class="fa fa-caret-down"></i> 루트 컨테이너 UI
+					</h4>
+					<p class="list-group-item-text"><small>Window를 자식으로 가지는 Top-Level 아이템 입니다.</small></p>
+					<div class="sub">
+						<a href="#" class="list-group-item"><i class="fa fa-youtube-play"></i> TabGroup</a>
+						<a href="#" class="list-group-item"><i class="fa fa-youtube-play"></i> NavigationWindow</a>
+						<a href="#" class="list-group-item"><i class="fa fa-youtube-play"></i> SplitWindow</a>
 					</div>
 				</div>
-			</li>
-
-			<li class="col-sm-3">
-				<div class="thumbnail">
-					<img alt="300x250" src="http://placehold.it/300x250">
-					<div class="caption">
-						<h6><a href="javascript:;">앱 스튜디오 기본 사용법</a></h6>
-						<p>앱 스튜디오 기본 사용법을 설명 합니다.</p>
+				<div href="#" class="list-group-item">
+					<h4 class="list-group-item-heading">
+						<i class="fa fa-caret-down"></i> 레이아웃 UI
+					</h4>
+					<p class="list-group-item-text"><small>컨트롤 UI를 자식으로 가지는 레이아웃 아이템 입니다.</small></p>
+					<div class="sub">
+						<a href="#" class="list-group-item"><i class="fa fa-youtube-play"></i> Window</a>
+						<a href="#" class="list-group-item"><i class="fa fa-youtube-play"></i> View</a>
+						<a href="#" class="list-group-item"><i class="fa fa-youtube-play"></i> ScrollView</a>
+						<a href="#" class="list-group-item"><i class="fa fa-youtube-play"></i> ScrollableView</a>
+						<a href="#" class="list-group-item"><i class="fa fa-youtube-play"></i> WebView</a>
+						<a href="#" class="list-group-item"><i class="fa fa-youtube-play"></i> TableView</a>
+						<a href="#" class="list-group-item"><i class="fa fa-youtube-play"></i> ListView</a>
 					</div>
 				</div>
-			</li>
-
-			<li class="col-sm-3">
-				<div class="thumbnail">
-					<img alt="300x250" src="http://placehold.it/300x250">
-					<div class="caption">
-						<h6><a href="javascript:;">앱 스튜디오 기본 사용법</a></h6>
-						<p>앱 스튜디오 기본 사용법을 설명 합니다.</p>
+				<div href="#" class="list-group-item">
+					<h4 class="list-group-item-heading">
+						<i class="fa fa-caret-down"></i> 컨트롤 UI
+					</h4>
+					<p class="list-group-item-text"><small>사용자와 상호작용하는 아이템 입니다.</small></p>
+					<div class="sub">
+						<a href="#" class="list-group-item"><i class="fa fa-youtube-play"></i> ImageView</a>
+						<a href="#" class="list-group-item"><i class="fa fa-youtube-play"></i> Button</a>
+						<a href="#" class="list-group-item"><i class="fa fa-youtube-play"></i> Label</a>
+						<a href="#" class="list-group-item"><i class="fa fa-youtube-play"></i> Slider</a>
+						<a href="#" class="list-group-item"><i class="fa fa-youtube-play"></i> Picker</a>
+						<a href="#" class="list-group-item"><i class="fa fa-youtube-play"></i> Switch</a>
+						<a href="#" class="list-group-item"><i class="fa fa-youtube-play"></i> ProgressBar</a>
+						<a href="#" class="list-group-item"><i class="fa fa-youtube-play"></i> OptionDialog</a>
+						<a href="#" class="list-group-item"><i class="fa fa-youtube-play"></i> AlertDialog</a>
+						<a href="#" class="list-group-item"><i class="fa fa-youtube-play"></i> EmailDialog</a>
+						<a href="#" class="list-group-item"><i class="fa fa-youtube-play"></i> ActivityIndicator</a>
+						<a href="#" class="list-group-item"><i class="fa fa-youtube-play"></i> VideoPlayer</a>
+						<a href="#" class="list-group-item"><i class="fa fa-youtube-play"></i> AudioPlayer</a>
+						<a href="#" class="list-group-item"><i class="fa fa-youtube-play"></i> Sound</a>
+						<a href="#" class="list-group-item"><i class="fa fa-youtube-play"></i> Vibrate</a>
+						<a href="#" class="list-group-item"><i class="fa fa-youtube-play"></i> TextField</a>
+						<a href="#" class="list-group-item"><i class="fa fa-youtube-play"></i> TextArea</a>
+						<a href="#" class="list-group-item"><i class="fa fa-youtube-play"></i> MapView</a>
+						<a href="#" class="list-group-item"><i class="fa fa-youtube-play"></i> HTTPClient</a>
+						<hr />
+						<div>Android</div>
+						<a href="#" class="list-group-item"><i class="fa fa-youtube-play"></i> ActionBar</a>
+						<a href="#" class="list-group-item"><i class="fa fa-youtube-play"></i> Activity</a>
+						<a href="#" class="list-group-item"><i class="fa fa-youtube-play"></i> Toast</a>
+						<hr />
+						<div>iOS</div>
+						<a href="#" class="list-group-item"><i class="fa fa-youtube-play"></i> Toolbar</a>
+						<a href="#" class="list-group-item"><i class="fa fa-youtube-play"></i> CoverFlowView</a>
+						<a href="#" class="list-group-item"><i class="fa fa-youtube-play"></i> ButtonBar</a>
 					</div>
 				</div>
-			</li>
-
-			<li class="col-sm-3">
-				<div class="thumbnail">
-					<img alt="300x250" src="http://placehold.it/300x250">
-					<div class="caption">
-						<h6><a href="javascript:;">앱 스튜디오 기본 사용법</a></h6>
-						<p>앱 스튜디오 기본 사용법을 설명 합니다.</p>
-					</div>
-				</div>
-			</li>
-
-		</ul>
+			</div>
+		</div>
+		<div class="col-sm-6">
+			<h3><i class="fa fa-caret-right"></i> 고급기능</h3>
+			<div class="list-group">
+				<a href="#" class="list-group-item">
+					<h4 class="list-group-item-heading">
+						<i class="fa fa-youtube-play"></i> 메모리 관리
+					</h4>
+					<p class="list-group-item-text"><small>메모리 관리를 통해 성능을 최적화 시키는 방법을 설명합니다.</small></p>
+				</a>
+				<a href="#" class="list-group-item">
+					<h4 class="list-group-item-heading">
+						<i class="fa fa-youtube-play"></i> 네트워크 사용법
+					</h4>
+					<p class="list-group-item-text"><small>HTTPClient를 이용해 외부 API 연동법을 설명합니다.</small></p>
+				</a>
+				<a href="#" class="list-group-item">
+					<h4 class="list-group-item-heading">
+						<i class="fa fa-youtube-play"></i> 구글맵
+					</h4>
+					<p class="list-group-item-text"><small>구글 맵 v2.0 을 이용하는 방법을 설명합니다.</small></p>
+				</a>
+				<a href="#" class="list-group-item">
+					<h4 class="list-group-item-heading">
+						<i class="fa fa-youtube-play"></i> 파일, DB
+					</h4>
+					<p class="list-group-item-text"><small>디바이스 내에 파일 및 DB처리 방법에 대해 설명합니다.</small></p>
+				</a>
+				<a href="#" class="list-group-item">
+					<h4 class="list-group-item-heading">
+						<i class="fa fa-youtube-play"></i> 디바이스 정보
+					</h4>
+					<p class="list-group-item-text"><small>디바이스의 여러가지 정보를 사용하는 방법을 설명합니다.</small></p>
+				</a>
+				<a href="#" class="list-group-item">
+					<h4 class="list-group-item-heading">
+						<i class="fa fa-youtube-play"></i> 확장 모듈
+					</h4>
+					<p class="list-group-item-text"><small>유용한 확장모듈을 사용하는 방법을 설명합니다.</small></p>
+				</a>
+			</div>
+		</div>
+		<div class="col-sm-6">
+			<h3><i class="fa fa-caret-right"></i> 배포</h3>
+			<div class="list-group">
+				<a href="#" class="list-group-item">
+					<h4 class="list-group-item-heading">
+						<i class="fa fa-youtube-play"></i> 인증서 생성하기
+					</h4>
+					<p class="list-group-item-text"><small>배포를 위한 각 플랫폼별 인증서 생성 방법을 설명합니다.</small></p>
+				</a>
+				<a href="#" class="list-group-item">
+					<h4 class="list-group-item-heading">
+						<i class="fa fa-youtube-play"></i> 컴파일
+					</h4>
+					<p class="list-group-item-text"><small>프로젝트를 실제 설치가능한 App 설치 파일로 컴파일 합니다.</small></p>
+				</a>
+			</div>
+		</div>
 	</div>
 </div>
