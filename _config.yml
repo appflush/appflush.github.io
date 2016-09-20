@@ -5,7 +5,7 @@ title: AppFlush
 description: "AppFlush Description"
 author: "AppFlush"
 baseurl: "" #important: start with /
-url: "http://appflush.com"
+url: "//appflush.com"
 #pygments: true
 #highlighter: pygments
 
