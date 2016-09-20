@@ -19,11 +19,11 @@ App Studio - Script
 	<div class="detail col-xs-12 col-md-6">
 		<ul class="list-unstyled">
 			<li>
-				<img src="http://appflush.com/core/images/icon/icon_Modules.png"> <strong>CommonJS</strong><br/>
+				<img src="//appflush.com/core/images/icon/icon_Modules.png"> <strong>CommonJS</strong><br/>
 				독립 스코프를 사용하는 코드를 생성해 모듈화 한다. require 함수를 통해 호출 할 수 있다. JavaScript, Titanium API Code를 사용할 수 있다.
 			</li>
 			<li>
-				<img src="http://appflush.com/core/images/icon/icon_NS_Script.png"> <strong>Script</strong><br/>
+				<img src="//appflush.com/core/images/icon/icon_NS_Script.png"> <strong>Script</strong><br/>
 				JavaScript, Titanium API Code를 사용할 수 있다.
 			</li>
 		</ul>

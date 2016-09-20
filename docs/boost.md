@@ -9,7 +9,7 @@ Boosting
 
 이 문서에서는 오픈 프로젝트를 내 프로젝트로 연결하여 향상 시키는 Boosting 기능을 설명 합니다.
 
-<a href="http://appflush.com/user/examples@appflush.com">examples@appflush.com</a> 의 부스트 페이지를 방문해 보세요.
+<a href="//appflush.com/user/examples@appflush.com">examples@appflush.com</a> 의 부스트 페이지를 방문해 보세요.
 
 <hr/>
 <div class="space33"></div>

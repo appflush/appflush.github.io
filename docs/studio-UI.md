@@ -28,7 +28,7 @@ App Studio - UI Items
 				각 아이템는 아이템 고유의 설정과 특수한 이벤트를 가지고 있다. 시각적인 요소를 통해 사용자와 직접적으로 상호작용이 가능하다.
 			</li>
 		</ul>
-		<img class="iconEventItem" src="http://appflush.com/core/images/event_icon.png"> 표시는 사용자의 상호작용을 위한 이벤트에서 주소 사용되는 아이템이다.
+		<img class="iconEventItem" src="//appflush.com/core/images/event_icon.png"> 표시는 사용자의 상호작용을 위한 이벤트에서 주소 사용되는 아이템이다.
 		<div class="space11"></div>
 		모든 아이템들은 마우스의 드래그를 이용해 아이템을 가질 수 있는 영역에 드랍해 생성한다.
 	</div>

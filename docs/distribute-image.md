@@ -40,10 +40,10 @@ Android와 iOS의 경우 서로 다른 디바이스와 스크린 사이즈를 �
 1. 아이콘, 스플래시 이미지 모두 PNG 포맷
 1. 아이콘
 	* 1024x1024
-	* <a href="http://site.appflush.com/assets/boot/appflush_appicon_sample.png" target="_blank" class="btn btn-link">예제(example) <i class="fa fa-external-link"></i></a>
+	* <a href="//site.appflush.com/assets/boot/appflush_appicon_sample.png" target="_blank" class="btn btn-link">예제(example) <i class="fa fa-external-link"></i></a>
 1. 스플래시 이미지
 	* 정 중앙 1000x1000 pixels 안에 디자인이 배치된 2208x2208 크기의 이미지
-	* <a href="http://site.appflush.com/assets/boot/appflush_splash_sample.png" target="_blank" class="btn btn-link">예제(example) <i class="fa fa-external-link"></i></a>
+	* <a href="//site.appflush.com/assets/boot/appflush_splash_sample.png" target="_blank" class="btn btn-link">예제(example) <i class="fa fa-external-link"></i></a>
 
 <div class="space11"></div>
 

@@ -34,11 +34,11 @@ App Studio는 사용자가 App을 제작하는 공간 입니다. App을 제작�
 	<div class="detail col-xs-12 col-md-6">
 		아이템의 정보를 확인하고 선택, 이동, 크기변경을 통해 아이템을 변경할 수 있다.
 		<div class="space11"></div>
-		<img src="http://appflush.com/core/images/contextMenu/refresh.png" alt=""/> 아이템을 디바이스에 적용.
+		<img src="//appflush.com/core/images/contextMenu/refresh.png" alt=""/> 아이템을 디바이스에 적용.
 		<div class="space11"></div>
-		<img src="http://appflush.com/core/images/contextMenu/property.png" alt=""/> 아이템의 액션창 오픈.
+		<img src="//appflush.com/core/images/contextMenu/property.png" alt=""/> 아이템의 액션창 오픈.
 		<div class="space11"></div>
-		<img src="http://appflush.com/core/images/contextMenu/remove.png" alt=""/> 아이템을 제거.
+		<img src="//appflush.com/core/images/contextMenu/remove.png" alt=""/> 아이템을 제거.
 	</div>
 	<div class="movie col-xs-12 col-md-6">
 		<a class="thumbnail" href="/docs/images/studio_working_area_options.png" data-lightbox="studio_working_area_options" data-title="">

@@ -18,7 +18,7 @@ Certificate Issue & Integration
 	- [Google Play 계정](https://play.google.com/apps/publish/signup/) (처음 1회 $25)
 	- AppFlush에서 제작한 App을 빌드하여 배포 및 판매 하고자 할 경우 등록.
 1. iOS
-	- [Apple's Developer program 계정](http://developer.apple.com/) (매년 1회 $99)
+	- [Apple's Developer program 계정](//developer.apple.com/) (매년 1회 $99)
 	- AppFlush에서 제작한 App을 빌드하여 배포 및 판매 하고자 할 경우 등록.
 	- TheCore Preview 를 자신의 디바이스에 설치하고자 할 경우 등록.
 

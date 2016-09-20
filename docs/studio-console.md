@@ -37,7 +37,7 @@ App Studio Console 기능은 App Studio 및 디바이스에서 보내는 로그�
 		<div class="space11"></div>
 			디바이스가 연결중인 상태에서 임의 이벤트를 발생시켜 이벤트 디버그 로그를 출력 할 수 있다.
 			<div class="space11"></div>
-			<img src="http://appflush.com/core/images/fireEvent_icon.png" alt=""> <strong>이벤트 발생기</strong> 해당 이벤트를 임의로 발생 시킨다.
+			<img src="//appflush.com/core/images/fireEvent_icon.png" alt=""> <strong>이벤트 발생기</strong> 해당 이벤트를 임의로 발생 시킨다.
 		</div>
 	<div class="movie col-xs-12 col-md-6">
 		<a class="thumbnail" href="/docs/images/studio_console_fireEvent.png" data-lightbox="studio_console_fireEvent" data-title="">

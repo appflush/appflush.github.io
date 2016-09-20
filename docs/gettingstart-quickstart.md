@@ -7,13 +7,13 @@ section: docs/gettingstart-quickstart
 QuickStart
 ===================
 
-이 문서에서는 **[UI Studio](http://appflush.com/project)**와 **[TheCore Preview](http://appflush.com/thecoreDownload?active=3)**를 이용해 **HelloWorld!**를 출력하는 App을 만듭니다.
+이 문서에서는 **[UI Studio](//appflush.com/project)**와 **[TheCore Preview](//appflush.com/thecoreDownload?active=3)**를 이용해 **HelloWorld!**를 출력하는 App을 만듭니다.
 
 #### 준비물
 
-1. [AppFlush 계정](http://appflush.com/signIn)
+1. [AppFlush 계정](//appflush.com/signIn)
 1. 스마트폰 (Android, iOS phone or tablet)
-1. [TheCore Preview](http://appflush.com/thecoreDownload?active=3) App
+1. [TheCore Preview](//appflush.com/thecoreDownload?active=3) App
 
 <hr/>
 <div class="space33"></div>

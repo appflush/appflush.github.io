@@ -24,7 +24,7 @@ App Studio - Global Area
 		<div class="space11"></div>
 		글로벌 아이템은 실행시에 왼쪽 아이템부터 오른쪽 아이템으로 순차적으로 실행 되며 드래그&드랍으로 실행 순서를 변경 할 수 있다.
 		<div class="space11"></div>
-		<img src="http://appflush.com/core/images/firstOpenWindow.png" alt=""/> 배포용으로 빌드된 App이 가장 먼저 실행할 아이템을 지정한다. 지정하지 않으면 아무것도 실행하지 않는다. 단, 글로벌 영역에 Script와 Module은 실행된다.
+		<img src="//appflush.com/core/images/firstOpenWindow.png" alt=""/> 배포용으로 빌드된 App이 가장 먼저 실행할 아이템을 지정한다. 지정하지 않으면 아무것도 실행하지 않는다. 단, 글로벌 영역에 Script와 Module은 실행된다.
 
 	</div>
 	<div class="movie col-xs-12 col-md-6">

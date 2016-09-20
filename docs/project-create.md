@@ -77,7 +77,7 @@ frameborder="0" allowfullscreen></iframe>
 
 <strong id="private">비공개 프로젝트 만들기</strong>
 
-1. 비공개 프로젝트를 만들고자 할 경우 Basic License 이상으로 <a href="http://auth.appflush.com/myAccount/billLicense?active=22">업그레이드</a> 해야 합니다.
+1. 비공개 프로젝트를 만들고자 할 경우 Basic License 이상으로 <a href="//auth.appflush.com/myAccount/billLicense?active=22">업그레이드</a> 해야 합니다.
 
 <div class="space11"></div>
 <hr/>
